@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #141f31;
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+
+}
+
+.background-animate {
+  background-size: 200%;
+  -webkit-animation: AnimateBackgroud 5s ease infinite;
+  -moz-animation: AnimateBackgroud 5s ease infinite;
+  animation: AnimateBackgroud 5s ease infinite;
+}
+
+@keyframes AnimateBackgroud {
+  0% {
+    background-position: 0;
+  }
+
+  50% {
+    background-position: 100%;
+  }
+
+  100% {
+    background-position: 0;
+  }
+}
+
+/* section title  */
+.section__title::after {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  background-color: #FFA500;
+  content: "";
+  height: 2px;
+  width: 10%;
+}
+
+/* projects  */
+.project__image{
+  transition: ease-in-out 2s;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  cursor: pointer;
+}
+.bg__css1{
+
+  background-image: url('./assets/image/influncer.png');
+ 
+}
+
+.bg__css2{
+  background-image: url('./assets/image/architect.png');
+}
+.bg__css3{
+  background-image: url('./assets/image/reveal.png');
+}
+.bg__css4{
+  background-image: url('./assets/image/bikezoon.png');
+}
+.bg__css5{
+  background-image: url('./assets/image/tea-house.png');
+}
+/* javacript projects  */
+.bg__js1{
+  background-image: url('./assets/image/country.png');
+}
+
+/* react projects  */
+.bg__react1{
+  background-image: url('./assets/image/toyfriend.png');
+}
+.bg__react2{
+  background-image: url('./assets/image/yago.png');
+}
+.bg__react3{
+  background-image: url('./assets/image/foodzoon.png');
+}
+.bg__react4{
+  background-image: url('./assets/image/blood.png');
+}
+/* wordpress  */
+
+
+.bg__wordpress1{
+  background-image: url('./assets/image/wordpress1.png');
+}
+
+
+/* shopify  */
+
+.bg__shopify1{
+  background-image: url('./assets/image/shopify1.png');
+}
+.bg__shopify2{
+  background-image: url('./assets/image/shopify2.png');
+}
+.bg__shopify3{
+  background-image: url('./assets/image/shopify3.png');
+}
+.bg__shopify4{
+  background-image: url('./assets/image/shopify4.png');
+}
+
+
+
+.project__image:hover{
+
+  background-position: bottom;
+}
+
