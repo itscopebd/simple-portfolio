@@ -1,6 +1,7 @@
 {
   "name": "name-of-your-project",
   "private": true,
+  "homepage": "http://rofiqul-portfolio.itscopebd.com/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -17,10 +17,9 @@ const Projects = () => {
             <Tabs>
                 <TabList className='flex flex-wrap gap-5 mb-10'>
                     <Tab className=" btn-sm md:btn capitalize active:bg-[#FFA500] shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Css</Tab>
-                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Bootstrap</Tab>
-                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white"> Tailwindcss</Tab>
-                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Javascript</Tab>
-                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">React Js</Tab>
+                    {/* <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Bootstrap</Tab> */}
+                    {/* <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white"> Tailwindcss</Tab> */}
+                    <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Javascript</Tab> 
                     <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Wordpress</Tab>
                     <Tab className=" btn-sm md:btn capitalize shadow-sm shadow-[#FFA500] px-5 py-2 text-white">Shopify</Tab>
 
@@ -35,11 +34,12 @@ const Projects = () => {
 
                             </figure>
                             <div className="card-body">
-                                <p>I made this website with html css</p>
+                                <p>this website e-commarces. I made this website html css javascript and applyed e-commarces functionality use by javascript.</p>
                                 <h3 className='text-xl font-bold'>Technologies</h3>
                                 <div className='flex gap-2 flex-wrap'>
                                     <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Html</button>
                                     <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Css</button>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Javascript</button>
 
                                 </div>
                                 <div className="flex justify-center gap-5">
@@ -128,15 +128,36 @@ const Projects = () => {
                 </TabPanel>
 
 
-                <TabPanel>
+                {/* <TabPanel>
 
                 </TabPanel>
                 <TabPanel>
 
-                </TabPanel>
+                </TabPanel> */}
                 <TabPanel>
                     {/* Javascript projects  */}
                     <div data-aos="fade-up" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
+
+
+                    <div className="card bg-base-100 shadow-xl">
+                            <figure className='bg__css1 project__image'>
+
+                            </figure>
+                            <div className="card-body">
+                                <p>this website e-commarces. I made this website html css javascript and applyed e-commarces functionality use by javascript.</p>
+                                <h3 className='text-xl font-bold'>Technologies</h3>
+                                <div className='flex gap-2 flex-wrap'>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Html</button>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Css</button>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Javascript</button>
+
+                                </div>
+                                <div className="flex justify-center gap-5">
+                                    <a href="https://github.com/itscopebd/influencer-gear" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaGithub></FaGithub> GitHub Link </a>
+                                    <a href="https://itscopebd.github.io/influencer-gear/" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaLink></FaLink> Live Link</a>
+                                </div>
+                            </div>
+                        </div>
 
                         <div className="card bg-base-100 shadow-xl">
                             <figure className='bg__js1 project__image'>

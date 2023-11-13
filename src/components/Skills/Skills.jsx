@@ -34,11 +34,7 @@ const Skills = () => {
                        <h4 className='text-2xl'> TailwindCss</h4>
                     </div>
                 </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Daisyui</h4>
-                    </div>
-                </div>
+                
                 <div className="shadow-sm shadow-[#FFA500]">
                     <div className="card-body py-3 items-center text-center text-white">
                        <h4 className='text-2xl'> Javascript</h4>
@@ -49,36 +45,7 @@ const Skills = () => {
                        <h4 className='text-2xl'> Es6</h4>
                     </div>
                 </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> React</h4>
-                    </div>
-                </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Firebase</h4>
-                    </div>
-                </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Express</h4>
-                    </div>
-                </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Node Js</h4>
-                    </div>
-                </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Mongodb</h4>
-                    </div>
-                </div>
-                <div className="shadow-sm shadow-[#FFA500]">
-                    <div className="card-body py-3 items-center text-center text-white">
-                       <h4 className='text-2xl'> Rest API</h4>
-                    </div>
-                </div>
+                
                 <div className="shadow-sm shadow-[#FFA500]">
                     <div className="card-body py-3 items-center text-center text-white">
                        <h4 className='text-2xl'>Figma</h4>

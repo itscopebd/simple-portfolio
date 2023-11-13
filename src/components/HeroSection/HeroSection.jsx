@@ -26,18 +26,17 @@ const HeroSection = () => {
                                 1000,
                                 'Front-end Developer',
                                 1000,
-                                'React Developer',
+                                'Wordpress Developer',
                                 1000,
-                                'Full-Stack Developer',
+                                'Shopfiy Developer',
                                 1000,
-                                'MERN Stack Developer',
-                                1000,
+                                
                             ]}
                             speed={75}
                             
                             repeat={Infinity} preRenderFirstString={true} omitDeletionAnimation={true}
                             />
-                        <h2 className='text-justify md:mt-4 mt-2'>Welcome to my portfolio! I'm Rofiqul Islam , a dedicated web developer passionate about crafting engaging and innovative digital experiences. From designing stunning user interfaces to implementing robust back-end solutions, I thrive on turning ideas into reality. Explore my work and let's embark on a journey of creativity and excellence together.</h2>
+                        <h2 className='text-justify md:mt-4 mt-2'>Welcome to my portfolio! I'm Rofiqul Islam ,I have worked as a freelance web developer for the last few years and have connected with some companies. a dedicated web developer passionate about crafting engaging and innovative digital experiences. From designing stunning user interfaces to implementing robust back-end solutions, I thrive on turning ideas into reality. Explore my work and let's embark on a journey of creativity and excellence together.</h2>
 
                         <div className='flex'>
                             <a href={rofiqul} download={true} className='flex gap-2 items-center px-3 py-3 mt-5 rounded-md hover:bg-transparent hover:border-2 border-2 border-[#FFA500] bg-[#FFA500]'>Resume Download <FaDownload></FaDownload> </a>

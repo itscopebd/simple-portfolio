@@ -30,13 +30,13 @@ const Services = () => {
                             <div className='w-8/12'>
                                 <div className="card-body">
                                     <h2 className="card-title">Creative web Design</h2>
-                                    <p className='text-justify'>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                                    <p className='text-justify'>Need a website? Fully Responsive static websites by using HTML, CSS, JavaScript, JQuery, Bootstrap and Tailwindcss.</p>
                                    
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="card bg-white shadow-xl">
+                    {/* <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={development} alt="Shoes" /></figure>
@@ -49,7 +49,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
@@ -58,15 +58,15 @@ const Services = () => {
                             </div>
                             <div className='w-8/12'>
                                 <div className="card-body">
-                                    <h2 className="card-title">Responsive Design</h2>
-                                    <p className='text-justify'>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                                    <h2 className="card-title">WordPress</h2>
+                                    <p className='text-justify'>Build WordPress website with Elementor, WPBakery Page Builder, Gutenberg, Divi, Avada, Betheme, Woodmart, Newspapr and E-Commerce Website. or custom theme development. </p>
                                    
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="card bg-white shadow-xl">
+                    {/* <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
                                 <figure><img  src={wordpress} alt="Shoes" /></figure>
@@ -79,7 +79,7 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="card bg-white shadow-xl">
                         <div className='flex items-center'>
                             <div className='w-4/12'>
@@ -88,7 +88,7 @@ const Services = () => {
                             <div className='w-8/12'>
                                 <div className="card-body">
                                     <h2 className="card-title">Shopify Store</h2>
-                                    <p className='text-justify'>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                                    <p className='text-justify'>Shopify Store & Premium Theme Customization.Landing Page Design, Product , Sales and Squeeze Page Design .Page Builder ( Pagefly, Gempages, Shogun) or custom theme development </p>
                                    
                                 </div>
                             </div>
@@ -101,8 +101,8 @@ const Services = () => {
                             </div>
                             <div className='w-8/12'>
                                 <div className="card-body">
-                                    <h2 className="card-title">Figma To HTML</h2>
-                                    <p className='text-justify'>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development</p>
+                                    <h2 className="card-title">Convert</h2>
+                                    <p className='text-justify'>Figma, XD,PSD to ( HTML, React js, Wordpress, Shopify) theme development </p>
                                    
                                 </div>
                             </div>
