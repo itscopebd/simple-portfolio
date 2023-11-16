@@ -61,6 +61,16 @@ const Skills = () => {
                        <h4 className='text-2xl'>Shopify</h4>
                     </div>
                 </div>
+                <div className="shadow-sm shadow-[#FFA500]">
+                    <div className="card-body py-3 items-center text-center text-white">
+                       <h4 className='text-2xl'>PHP</h4>
+                    </div>
+                </div>
+                <div className="shadow-sm shadow-[#FFA500]">
+                    <div className="card-body py-3 items-center text-center text-white">
+                       <h4 className='text-2xl'>MySql</h4>
+                    </div>
+                </div>
                
             
             </div>

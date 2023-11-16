@@ -182,9 +182,9 @@ const Projects = () => {
                     </div>
 
                 </TabPanel>
-
-                <TabPanel>
-                    {/* React projects  */}
+  {/* React projects  */}
+                {/* <TabPanel>
+                  
                     <div data-aos="fade-up" className='grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 custom__projects'>
 
                         <div className="card bg-base-100 shadow-xl">
@@ -294,7 +294,7 @@ const Projects = () => {
 
                     </div>
 
-                </TabPanel>
+                </TabPanel> */}
 
 
 
@@ -307,7 +307,7 @@ const Projects = () => {
 
                             </figure>
                             <div className="card-body">
-                                <p className='text-justify'> This website is made for my client. Creating it using Elementor. </p>
+                                <p className='text-justify'> This website is made for my client. Created it using Elementor. </p>
                                 <h3 className='text-xl font-bold'>Technologies:</h3>
                                 <div className='flex gap-2 flex-wrap'>
                                     <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Elementor</button>
@@ -322,6 +322,29 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className="card bg-base-100 shadow-xl">
+                            <figure className='bg__wordpress2 project__image'>
+
+                            </figure>
+                            <div className="card-body">
+                                <p className='text-justify'> This website is made for my client. Created it using Elementor. </p>
+                                <h3 className='text-xl font-bold'>Technologies:</h3>
+                                <div className='flex gap-2 flex-wrap'>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Elementor</button>
+
+                                </div>
+
+
+
+                                <div className="flex justify-center gap-5">
+
+                                    <a href="https://empirecloud.net/" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaLink></FaLink> Live Link</a>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
 
                 </TabPanel>
@@ -410,6 +433,26 @@ const Projects = () => {
                                 <div className="flex justify-center gap-5">
 
                                     <a href="https://shopthriftytreasures.com/" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaLink></FaLink> Live Link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="card bg-base-100 shadow-xl">
+                            <figure className='bg__shopify5 project__image'>
+
+                            </figure>
+                            <div className="card-body">
+                                <p className='text-justify'> This website is made with Shopify Pagefly. </p>
+                                <h3 className='text-xl font-bold'>Technologies:</h3>
+
+                                <div className='flex gap-2 flex-wrap'>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Pagefly page builder</button>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Css</button>
+
+
+                                </div>
+                                <div className="flex justify-center gap-5">
+
+                                    <a href="https://gorillagodz.com/" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaLink></FaLink> Live Link</a>
                                 </div>
                             </div>
                         </div>

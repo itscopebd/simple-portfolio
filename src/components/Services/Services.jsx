@@ -102,7 +102,7 @@ const Services = () => {
                             <div className='w-8/12'>
                                 <div className="card-body">
                                     <h2 className="card-title">Convert</h2>
-                                    <p className='text-justify'>Figma, XD,PSD to ( HTML, React js, Wordpress, Shopify) theme development </p>
+                                    <p className='text-justify'>Figma, XD, PSD to ( HTML, React js, Wordpress, Shopify) or theme development </p>
                                    
                                 </div>
                             </div>

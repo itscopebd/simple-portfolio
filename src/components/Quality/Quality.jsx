@@ -23,7 +23,7 @@ const Quality = () => {
                 <figure><img className='w-32 h-32' src={bestImage} alt="Shoes" /></figure>
                 <div className="card-body px-2 border-none text-black">
                     <h2 className="card-title text-center text-3xl block">High Quality</h2>
-                    <p className='text-center'>My design service is dedicated to delivering meticulous, refined, and pixel-perfect creations for your utmost satisfaction.</p>
+                    <p className='text-center'>the clean and organized layout. a visually appealing color scheme that aligns with your brand. legible fonts and maintain consistency throughout the site. your website is accessible and looks good on various devices</p>
                   
                 </div>
             </div>
@@ -31,7 +31,7 @@ const Quality = () => {
                 <figure><img className='w-32 h-32' src={ideaImage} alt="Shoes" /></figure>
                 <div className="card-body px-2 border-none text-black">
                     <h2 className="card-title text-center text-3xl block">Awesome Idea</h2>
-                    <p className='text-center'>My design service is dedicated to delivering meticulous, refined, and pixel-perfect creations for your utmost satisfaction.</p>
+                    <p className='text-center'>First, listen to the client's needs. After that research according to the needs. After that, we create the structure and start working.</p>
                   
                 </div>
             </div>

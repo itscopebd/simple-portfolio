@@ -98,6 +98,9 @@ body{
 .bg__wordpress1{
   background-image: url('./assets/image/wordpress1.png');
 }
+.bg__wordpress2{
+  background-image: url('./assets/image/wordpress2.png');
+}
 
 
 /* shopify  */
@@ -113,6 +116,9 @@ body{
 }
 .bg__shopify4{
   background-image: url('./assets/image/shopify4.png');
+}
+.bg__shopify5{
+  background-image: url('./assets/image/shopify5.png');
 }
 
 
