@@ -343,6 +343,27 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className="card bg-base-100 shadow-xl">
+                            <figure className='bg__wordpress3 project__image'>
+
+                            </figure>
+                            <div className="card-body">
+                                <p className='text-justify'> This website is made for myself. Created it using Elementor, Woocommerce. </p>
+                                <h3 className='text-xl font-bold'>Technologies:</h3>
+                                <div className='flex gap-2 flex-wrap'>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Elementor</button>
+                                    <button className='btn btn-sm bg-[#FFA500] text-white capitalize hover:text-black'>Woocommerce</button>
+
+                                </div>
+
+
+
+                                <div className="flex justify-center gap-5">
+
+                                    <a href="https://www.youshop.itscopebd.com/" target='_blank' className='text-[#FFA500] flex items-center gap-2'> <FaLink></FaLink> Live Link</a>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
